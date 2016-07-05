@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ApplicationThatWillMakeMeRich</string>
+    <string name="show_me_the_other_activity">Show me the other activity</string>
+    <string name="here_is_the_other_activity">HERE IS THE OTHER ACTIVITY</string>
+    <string name="new_string">NEW STRING</string>
+</resources>

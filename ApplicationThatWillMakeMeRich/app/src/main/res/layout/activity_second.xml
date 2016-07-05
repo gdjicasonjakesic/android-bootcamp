@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trying.die.or.rich.get.applicationthatwillmakemerich.SecondActivity">
+
+    <TextView
+        android:text="@string/here_is_the_other_activity"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:id="@+id/textView2"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_second"
+        android:layout_marginLeft="88dp"
+        android:layout_marginStart="88dp"
+        app:layout_constraintTop_toTopOf="@+id/activity_second"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="@+id/activity_second"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_second"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintVertical_bias="0.47000003" />
+
+</android.support.constraint.ConstraintLayout>
