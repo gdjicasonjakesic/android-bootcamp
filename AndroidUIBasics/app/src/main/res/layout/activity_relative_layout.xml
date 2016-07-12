@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorViewBackground"
+        android:layout_margin="@dimen/view_margin"
+        android:padding="@dimen/view_padding"
+        android:textAlignment="center"
+        android:text="@string/one"
+        android:id="@+id/textViewOne"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorViewBackground"
+        android:layout_margin="@dimen/view_margin"
+        android:padding="@dimen/view_padding"
+        android:textAlignment="center"
+        android:text="@string/two"
+        android:id="@+id/textViewTwo"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorViewBackground"
+        android:layout_margin="@dimen/view_margin"
+        android:padding="@dimen/view_padding"
+        android:textAlignment="center"
+        android:text="@string/three"
+        android:id="@+id/textViewThree"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/textViewOne"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorViewBackground"
+        android:layout_margin="@dimen/view_margin"
+        android:padding="@dimen/view_padding"
+        android:textAlignment="center"
+        android:text="@string/four"
+        android:id="@+id/textViewFour"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/textViewTwo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorViewBackground"
+        android:layout_margin="@dimen/view_margin"
+        android:padding="@dimen/view_padding"
+        android:textAlignment="center"
+        android:text="@string/five"
+        android:id="@+id/textViewFive"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorViewBackground"
+        android:layout_margin="@dimen/view_margin"
+        android:padding="@dimen/view_padding"
+        android:textAlignment="center"
+        android:text="@string/six"
+        android:id="@+id/textViewSix"
+        android:layout_alignTop="@id/textViewFive"
+        android:layout_toEndOf="@id/textViewFive" />
+
+</RelativeLayout>
