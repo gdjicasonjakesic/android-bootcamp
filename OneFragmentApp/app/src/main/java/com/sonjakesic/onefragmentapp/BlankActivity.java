@@ -1,13 +1,13 @@
 package com.sonjakesic.onefragmentapp;
 
-import android.app.Activity;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.widget.Button;
 
-public class BlankActivity extends Activity {
+public class BlankActivity extends FragmentActivity {
 
     Button mButton;
 
@@ -26,7 +26,7 @@ public class BlankActivity extends Activity {
     }
 
     void addBlankFragment() {
-        FragmentManager fragmentManager = getFragmentManager();
+        FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.add(android.R.id.content, BlankFragment.newInstance());
         // make sure fragment is removed when user presses back button
