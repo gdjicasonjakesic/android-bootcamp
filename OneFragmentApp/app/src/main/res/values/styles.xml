@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="BigText" parent="@android:style/TextAppearance.Large" />
+</resources>

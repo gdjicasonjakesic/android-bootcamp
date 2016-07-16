@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OneFragmentApp</string>
+
+    <string name="hello_blank_activity">This is a blank activity</string>
+    <string name="hello_blank_fragment">This is a blank fragment</string>
+    <string name="add_fragment_button_text">Add blank fragment</string>
+</resources>
