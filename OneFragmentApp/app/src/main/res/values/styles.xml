@@ -1,7 +1,11 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 
-    <style name="BigText" parent="@android:style/TextAppearance.Large" />
+    <style name="BigText" parent="Base.TextAppearance.AppCompat.Large" />
 </resources>
