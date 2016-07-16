@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- List View hard-coded values -->
+    <string-array name="platforms">
+        <item>Sony</item>
+        <item>Samsung</item>
+        <item>HTC</item>
+        <item>Nokia</item>
+        <item>CAT</item>
+        <item>Sharp</item>
+    </string-array>
+</resources>

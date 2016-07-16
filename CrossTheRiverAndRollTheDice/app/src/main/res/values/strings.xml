@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CrossTheRiverAndRollTheDice</string>
+    <string name="random_number">Random number:</string>
+    <string name="dice_roll">Dice roll</string>
+    <string name="application_function_explanation">This application will simulate rolling of the N-sided dice. Please enter bellow the end value of the dice. The starting value is 1.</string>
+    <string name="start_value">1</string>
+</resources>

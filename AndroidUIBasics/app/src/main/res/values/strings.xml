@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Android UI Basics</string>
+
+    <!-- Main Activity Buttons -->
+    <string name="button_layout_linear_horizontal">Linear Layout (Horizontal)</string>
+    <string name="button_layout_linear_vertical">Linear Layout (Vertical)</string>
+    <string name="button_layout_relative">Relative Layout</string>
+    <string name="button_layout_combination">Layout Combination</string>
+    <string name="button_navigation">Navigation</string>
+    <string name="button_dialogs">Dialogs</string>
+    <string name="button_list_view">List View</string>
+    <string name="button_styles">Styles</string>
+
+    <!-- Linear Layout - Vertical -->
+    <string name="one">ONE</string>
+    <string name="two">TWO</string>
+    <string name="three">THREE</string>
+    <string name="four">FOUR</string>
+    <string name="five">FIVE</string>
+    <string name="six">SIX</string>
+    <!-- Linear Layout - Horizontal -->
+    <string name="digit_one">1</string>
+    <string name="digit_two">2</string>
+    <string name="digit_three">3</string>
+    <string name="digit_four">4</string>
+    <string name="digit_five">5</string>
+    <!-- Relative Layout -->
+    <string name="align_parent_top">Align parent at top</string>
+    <string name="align_parent_bottom">Align parent on bottom</string>
+    <!-- Layouts Combination -->
+    <string name="button_left">Left</string>
+    <string name="button_right">Right</string>
+    <string name="textCenter">Center</string>
+    <string name="textLeft">Left</string>
+    <string name="textRight">Right</string>
+    <!-- List View -->
+    <string name="platforms_title">Platforms</string>
+    <!-- Dialogs -->
+    <string name="button_alert_dialog">Alert Dialog</string>
+    <string name="button_notification_dialog">Notification Dialog</string>
+    <string name="button_yesno_dialog">Yes/No Dialog</string>
+    <string name="button_custom_dialo">Custom Dialog</string>
+    <string name="notification_dialog_title">Notification</string>
+    <string name="notification_dialog_body">Notification about something.</string>
+    <string name="alert_dialog_title">Alert!</string>
+    <string name="alert_dialog_body">You\'ll be transferred to main activity.</string>
+    <string name="yesno_dialog_title">Back to Start?</string>
+    <string name="yesno_dialog_body">Do you want to return to the Start?</string>
+    <!-- Navigation -->
+    <string name="text_send_data">Enter data to send:"</string>
+    <string name="text_send_data_hint">Data to send</string>
+    <string name="button_start_with_data">Start Activity with Extras</string>
+    <!-- Navigation - Read Data -->
+    <string name="text_received_data">Received following data:</string>
+    <!-- Navigation - Start for Result -->
+    <string name="text_result_data_hint">-- result placeholder --</string>
+    <string name="button_start_for_result">Start Activity for Result</string>
+    <!-- Navigation - Generate Result -->
+    <string name="text_generate_result">Enter data to send back to previous activity:</string>
+    <string name="text_generate_result_hint">Data to send back</string>
+    <string name="button_finish">Finish</string>
+    <!-- Styles -->
+    <string name="text_hardcoded_properties">Views with hard-coded properties</string>
+    <string name="text_using_style">Views with properties defined within a Style</string>
+    <string name="text_some_dummy_text">Some dummy text</string>
+</resources>

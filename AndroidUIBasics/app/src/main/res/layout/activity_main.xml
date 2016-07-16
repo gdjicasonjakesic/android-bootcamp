@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/view_min_padding" >
+    <!-- Linear Layout - Vertical -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_layout_linear_vertical"
+        android:id="@+id/buttonLayoutLinearVertical"
+        android:onClick="onButtonClick" />
+    <!-- Linear Layout - Horizontal -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_layout_linear_horizontal"
+        android:id="@+id/buttonLayoutLinearHorizontal"
+        android:onClick="onButtonClick" />
+    <!-- Relative Layout -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_layout_relative"
+        android:id="@+id/buttonLayoutRelative"
+        android:onClick="onButtonClick" />
+    <!-- Layouts Combination -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_layout_combination"
+        android:id="@+id/buttonLayoutCombination"
+        android:onClick="onButtonClick" />
+    <!-- Navigation -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_navigation"
+        android:id="@+id/buttonNavigation"
+        android:onClick="onButtonClick" />
+    <!-- Dialogs -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_dialogs"
+        android:id="@+id/buttonDialogs"
+        android:onClick="onButtonClick" />
+    <!-- List View -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_list_view"
+        android:id="@+id/buttonListView"
+        android:onClick="onButtonClick" />
+    <!-- Styles -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_styles"
+        android:id="@+id/buttonStyles"
+        android:onClick="onButtonClick" />
+</LinearLayout>
