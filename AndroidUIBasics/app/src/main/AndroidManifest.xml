@@ -24,7 +24,9 @@
         <activity android:name=".StylesActivity" />
         <activity android:name=".LayoutsCombinationActivity" />
         <activity android:name=".ReadDataActivity" />
-        <activity android:name=".ResultGenerationActivity"></activity>
+        <activity android:name=".ResultGenerationActivity" />
+        <activity android:name=".RtlActivity" />
+        <activity android:name=".ClickHandlerActivity"></activity>
     </application>
 
 </manifest>

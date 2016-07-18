@@ -22,8 +22,11 @@ public class ReadDataActivity extends AppCompatActivity {
         String receivedStringData = intent.getStringExtra(NavigationActivity.DATA_TAG);
         // In the case that no integer value is received, -1 will be used as a substitute.
         int receivedIntData = intent.getIntExtra(NavigationActivity.DATA_INT_TAG, -1);
+        Bundle bundle = intent.getExtras();
         mTextViewReceivedData.setText(
-                String.format("'%s' [%d]", receivedStringData, receivedIntData)
+                String.format("'%s' [%d]\nName: %s\nSurname: %s",
+                        receivedStringData, receivedIntData,
+                        bundle.getString("name"), bundle.getString("surname"))
         );
     }
 }

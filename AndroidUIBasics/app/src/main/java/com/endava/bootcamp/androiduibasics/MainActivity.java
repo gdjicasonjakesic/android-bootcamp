@@ -50,6 +50,14 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "Styles option selected.");
                 startActivity(new Intent(this, StylesActivity.class));
                 break;
+            case R.id.buttonRtl:
+                Log.d(TAG, "RTL option selected.");
+                startActivity(new Intent(this, RtlActivity.class));
+                break;
+            case R.id.buttonHandler:
+                Log.d(TAG, "Handler option selected.");
+                startActivity(new Intent(this, ClickHandlerActivity.class));
+                break;
         }
     }
 }

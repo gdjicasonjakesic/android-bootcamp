@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/view_min_padding" >
+    <!-- Handling single button -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_single"
+        android:id="@+id/buttonSingle"
+        android:onClick="onSingleButtonClick" />
+    <!-- Handling multiple buttons -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_multi_1"
+        android:id="@+id/buttonMultiple1"
+        android:onClick="onMultipleButtonClick" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_multi_2"
+        android:id="@+id/buttonMultiple2"
+        android:onClick="onMultipleButtonClick" />
+    <!-- Setting listener for the buttons -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_listener"
+        android:id="@+id/buttonListener"/>
+</LinearLayout>
