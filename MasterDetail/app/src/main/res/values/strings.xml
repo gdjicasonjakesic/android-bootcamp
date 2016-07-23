@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Fun Country Facts</string>
+    <string name="title_country_detail">Country Detail</string>
+
+    <string-array name="countries_array">
+        <item>United States</item>
+        <item>Nauru</item>
+        <item>Maldives</item>
+        <item>France</item>
+        <item>Guam</item>
+        <item>Canada</item>
+        <item>Libya</item>
+        <item>Afghanistan</item>
+        <item>Russia</item>
+        <item>Haiti</item>
+        <item>Somalia</item>
+        <item>Singapore</item>
+        <item>Papua New Guinea</item>
+        <item>Falkand Islands (UK)</item>
+        <item>Mongolia</item>
+        <item>Saudi Arabia</item>
+        <item>Niger</item>
+        <item>Suriname</item>
+        <item>Malta</item>
+        <item>Monaco</item>
+        <item>Ukraine</item>
+        <item>Egypt</item>
+        <item>India</item>
+    </string-array>
+
+    <string-array name="details_array"
+                  formatted="false">
+        <item>When it comes to incarcerating its population, the United States is the world’s uncontested leader. The U.S. has 5% of the world’s population but 25% of the world’s incarcerated population at 2.2 million people behind bars . China comes in second place at 1.5 million and Russia comes third at 870,000.  It should be noted though that China has about 1.3 billion people, so it’s not too surprising that they’d also have one of the world’s largest number of people behind bars.   Russia only has about 141M people (about 45% of the U.S.), so their percentage of incarcerated people isn’t that far off the U.S. rate.</item>
+        <item>With over 95% of its population overweight, the small island nation of Nauru is by far the fattest country on Earth and presumably has the highest per capita manssiere sale rates. Its obesity epidemic is primarily attributed to the importation of western fast food that coincided with an increased standard of living in the 20th century due to the global popularity of its phosphate exports.  However, in truth it’s not really fast food, it’s because they’re choosing to eat more than their body needs given their level of daily exercise, which triggers it to store more pounds of fat than had they eaten more moderately.  Personal responsibility people!  Fast food is not why I’m fat.  My decisions and subsequent actions are why I am fat.</item>
+        <item>With all the talks of global warming and rising sea levels, it is the residents of the Maldives that have the greatest reason to fear. With an average height of around 1.8 meters above sea level their nation is basically screwed unless they adopt the Venice, Italy model or we solve global warming pronto.</item>
+        <item>If you count everything, including overseas territories, then France claims the title by covering 12 time zones. The United States would be the runner-up with 11 and then Russia with 9.</item>
+        <item>Because Guam doesn’t have any natural sand, but rather coral, the island nation makes its asphalt using a mix of ground coral and oil rather than importing sand from abroad.</item>
+        <item>With over 3 million lakes 9% of Canadian territory is actually fresh water and over 60% of all the lakes in the world are found within its borders.</item>
+        <item>With 99% of the country covered in desert, Libya is one of the most arid places in the world and in some regions decades may go by without a single drop of rain.</item>
+        <item>Producing a whopping 95% of the world’s opium.</item>
+        <item>Siberia is home to approximately 25% of the world’s forests that span an area larger than the continental United States, making Russia the largest converter of CO2 into breathable compounds.  You win this round Russia.</item>
+        <item>On the opposite end of the spectrum is Haiti, a country that has been so badly deforested that you can tell where it borders the Dominican Republic by looking at a satellite image.</item>
+        <item>Although for the last three years Iraq has been ranked as the least peaceful country in the world, according to the Global Peace Index Somalia overtook it this year for the top spot.  This shouldn’t be surprising peace and war numbers through history, in terms of the number of states/tribes/etc. at war or at peace tend to correlate well with the amount of protein and food available to the populace and Somalia’s not exactly known for its food reserves and population able to afford said food.  The best way to stop revolution and war is to put food in the populace’ bellies and a roof over their heads. It’s as true today as it was 1000 years ago.</item>
+        <item>Although there are a number of small nations in the world that show no hint of having an agriculture based economy, (take Vatican City for example) Singapore is the largest of these urban city-states.</item>
+        <item>Although English is its official language, only 1-2% of the population actually speak it. As the most linguistically diverse country in the world, over 820 languages are spoken in Papua New Guinea or 12% of the world’s total.</item>
+        <item>With only about 3,000 people, the Falkland Islands are home to approximately half-a million-sheep. Not surprisingly, wool is a major export.</item>
+        <item>At 4 people per square mile, Mongolia is the least densely populated country on Earth. Compare this to the Mong Kok district of Hong Kong that has the highest population density in the world with 340,000 people per square mile.</item>
+        <item>Sounds a bit strange doesn’t it? For a country as big as Saudi Arabia there has to be at least some sort of flowing water. Well, there isn’t. Most of their fresh water comes from desalinization plants or underground reservoirs.</item>
+        <item>Generally the worlds youngest country is determined by calculating the portion of the population that is younger than 15. Presently it is Niger that holds this distinction with roughly half of its population having barely reached puberty (49%).  As about 80% of it’s landmass is covered in desert, apparently the only thing to do there these days is make babies.</item>
+        <item>With 91% of its land covered in jungle, Suriname’s half-a-million residents live primarily along the coast near the capital. Only 5% of the population (mainly indigenous people) live inland.  Weeeeeeeee-de-de-de, de-de-de-de-de-de, we-um-um-a-way A wimoweh, a-wimoweh a-wimoweh, a-wimoweh  A wimoweh, a-wimoweh a-wimoweh, a-wimoweh A wimoweh, a-wimoweh a-wimoweh, a-wimoweh A wimoweh, a-wimoweh a-wimoweh, a-wimoweh… In the jungle the mighty jungle the lion sleeps tonight….  Presumably this is the most mocked song in this country, as lions don’t live in the jungle.  Either way, now the song is stuck in your head. *muhuhaha*</item>
+        <item>After some rough economic times coupled with an increased birth rate, Malta experienced significant immigration. It was so significant that there are now more Maltese living abroad than within the country itself.</item>
+        <item>Although Vatican City is smaller (.17 sq mi) than Monaco (.8 sq mi), unlike Monaco it doesn’t have any permanent residents which leaves Monaco as the smallest permanently inhabited nation in the world…smaller than Central Park.</item>
+        <item>With a natural decrease in population of .8% annually, between now and 2050 Ukraine is expected to lose around 30% of its people.</item>
+        <item>This largely depends upon your definition of a sovereign state but if you are going by first acquisition of sovereignty then Egypt would be the first country in the world to achieve sovereignty based upon the formation of the first dynasty in 3100 BC.</item>
+        <item>In almost every category – culturally, economically, climatically, racially, linguistically, ethnically, and religiously India is either the most diverse countries in the world, or the runner-up.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<ScrollView
+    android:id="@+id/country_detail"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/country_detail_text"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/default_padding"
+        android:textIsSelectable="true"
+        tools:context="com.sonjakesic.masterdetail.CountryDetailFragment"/>
+</ScrollView>
