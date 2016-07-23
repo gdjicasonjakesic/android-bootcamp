@@ -60,4 +60,18 @@
         android:text="@string/button_styles"
         android:id="@+id/buttonStyles"
         android:onClick="onButtonClick" />
+    <!-- RTL -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_rtl"
+        android:id="@+id/buttonRtl"
+        android:onClick="onButtonClick" />
+    <!-- Handler -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_handler"
+        android:id="@+id/buttonHandler"
+        android:onClick="onButtonClick" />
 </LinearLayout>

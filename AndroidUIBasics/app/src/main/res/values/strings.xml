@@ -63,4 +63,14 @@
     <string name="text_hardcoded_properties">Views with hard-coded properties</string>
     <string name="text_using_style">Views with properties defined within a Style</string>
     <string name="text_some_dummy_text">Some dummy text</string>
+    <!-- RTL -->
+    <string name="button_rtl">RTL Awareness</string>
+    <string name="text_rtl_aware">RTL aware TextView</string>
+    <string name="text_rtl_unaware">RTL un-aware TextView</string>
+    <!-- Click Handler -->
+    <string name="button_handler">Click Handlers</string>
+    <string name="button_single">Single Handler</string>
+    <string name="button_multi_1">Multiple Handler [1]</string>
+    <string name="button_multi_2">Multiple Handler [2]</string>
+    <string name="button_listener">Listener Handler</string>
 </resources>

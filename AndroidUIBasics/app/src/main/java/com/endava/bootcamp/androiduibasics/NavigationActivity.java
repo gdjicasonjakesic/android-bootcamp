@@ -12,6 +12,7 @@ public class NavigationActivity extends AppCompatActivity {
     // Tags used to pass data to started activity
     public final static String DATA_TAG = "com.endava.androiduibasics.DATA_TAG";
     public final static String DATA_INT_TAG = "com.endava.androiduibasics.DATA_INT_TAG";
+    public final static String DATA_BUNDLE_TAG = "com.endava.androiduibasics.DATA_BUNDLE_TAG";
 
     // Request code(s) used to start new activity for result
     public final static int GET_RESULT_REQCODE = 1;
@@ -35,6 +36,13 @@ public class NavigationActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ReadDataActivity.class);
         intent.putExtra(DATA_TAG, dataToSend);
         intent.putExtra(DATA_INT_TAG, 54);
+
+        Contact contact = new Contact("Petar", "Petrovic");
+        Bundle bundle = new Bundle();
+        bundle.putString("name", contact.getName());
+        bundle.putString("surname", contact.getSurname());
+        intent.putExtras(bundle);
+
         startActivity(intent);
     }
 
