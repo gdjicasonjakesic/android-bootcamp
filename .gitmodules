@@ -1,3 +1,5 @@
 [submodule "AdvancedUI"]
 	path = AdvancedUI
 	url = https://github.com/PSIXO/Bootcamp_AdvancedUI.git
+	branch = master
+	
